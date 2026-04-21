@@ -78,32 +78,15 @@ All buttons are registered using `setOnAction(this)`, where `this` refers to the
 ## How to Run
 
 **1. Clone or download the project files.**
-
-Ensure the following `.java` files are present in the same directory:
+**2. Create a new project in blueJ.**
+**3. Edit -> Add class from File.**
+**4. Ensure the following `.java` files are present in the same directory:**
 - `Gadget.java`
 - `Mobile.java`
 - `Mp3.java`
 - `GadgetShop.java`
-
-**2. Compile with JavaFX on the module path.**
-
-```bash
-javac --module-path /path/to/javafx-sdk/lib \
-      --add-modules javafx.controls \
-      Gadget.java Mobile.java Mp3.java GadgetShop.java
-```
-
-**3. Run the application.**
-
-```bash
-java --module-path /path/to/javafx-sdk/lib \
-     --add-modules javafx.controls \
-     GadgetShop
-```
-
-> Replace `/path/to/javafx-sdk/lib` with the actual path to your local JavaFX SDK installation.
-
----
+**5. Compile**
+**6. Run JavaFx Application.**
 
 ## Usage
 
